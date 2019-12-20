@@ -5,11 +5,11 @@
 
 
 
-
-
-
-
 """
+
+IO.puts Base.encode16(:crypto.hash(:sha256,"Rosetta code"))
+
+
 
 import Map
 m = %{name: "aaa"}
